@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Галлерея</title>
+    <style>
+        .gallery {
+            display: flex;
+            list-style-type: none;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .gallery li {
+            flex-basis: 33%;
+            box-sizing: border-box;
+            padding:20px;
+        }
+        .gallery li img {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            border: 0.3rem solid black;
+        }
+        body {
+            margin:auto;
+            width: 60%; }
+    </style>
+</head>
+<body>
+<ul class="gallery">
+    <li><img src="img/img1.jpg"></li>
+    <li><img src="img/img2.jpg"></li>
+    <li><img src="img/img3.jpg"></li>
+    <li><img src="img/img4.jpg"></li>
+    <li><img src="img/img5.jpg"></li>
+    <li><img src="img/img6.jpg"></li>
+
+</ul>
+</body>
+</html>
