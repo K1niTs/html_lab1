@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox элемент</title>
+    <style>
+        body {
+            background: rgb(238, 238, 238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        section.container {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            background: white;
+            width: 350px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            border-radius: 0.2rem;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        section.container p {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+<section class="container">
+    <strong>Card Title</strong>
+    <p>Some kind of description here that explains this strange behavior of the system</p>
+</section>
+</body>
+</html>
